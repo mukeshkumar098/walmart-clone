@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.top-container{
+    width: 100%;
+   
+}
+.container{
+    width: 100%;
+    display: flex;
+     z-index: 0;
+    justify-content: space-around;
+    padding: 20px;
+    height: auto;
+    gap: 10px;
+}
+.container img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.box1{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+}
+.image1{
+    position: relative;
+
+}
+.image-text1{
+    position: absolute;
+    left: 6%;
+    top: 11%;
+  
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+}
+.image2{
+    position: relative;
+
+}
+.image-text1{
+    position: absolute;
+    left: 6%;
+    top: 11%;
+    width: 200px;
+   
+}
+.image-text1 p{
+    font-size: 1.5rem; 
+    color: black;
+    font-weight: bold;
+}
+.image-text1 a{
+color: black;
+font-size: 1rem;
+line-height: 50px;
+}
+.secont-box-mid-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+.image2{
+    position: relative;
+
+}
+.image-text2{
+    position: absolute;
+    left: 6%;
+    top: 8%;
+    width: 250px;
+}
+.image-text2 p{
+    font-size: 1.8rem; 
+    color: black;
+    font-weight: bold;
+}
+.image-text2 a{
+color: black;
+font-size: 1rem;
+line-height: 50px;
+}
+.image3{
+    position: relative;
+
+}
+
+.image-text3{
+    position: absolute;
+    left: 6%;
+    top: 8%;
+    width: 250px;
+}
+.image-text3 p{
+    font-size: 1.8rem; 
+    color: black;
+    font-weight: bold;
+}
+.image-text3 a{
+color: black;
+font-size: 1rem;
+line-height: 50px;
+}
+
+
+.box2-image1{
+    position: relative;
+
+}
+.box2-image1-text{
+    position: absolute;
+    left: 6%;
+    display: flex;
+    flex-direction: column;
+    top: 11%;
+    color: white;
+    gap: 20px;
+}
+.box2-image1-text button{
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+ 
+}
+.box2-image1-text  a{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: none;
+    width: 200px;
+   
+}
+
+.box2-image2{
+    position: relative;
+
+}
+.box2-image2-text1{
+    position: absolute;
+    left: 6%;
+    top: 8%;
+    font-size: 18px;
+    line-height: 40px;
+}
+.box2-image2-text1 .owala{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.box2-image2-text1 a{
+    font-size: 1rem;
+    color: black;
+} 
+.box2-image3{
+    position: relative;
+
+}
+
+
+.box2-image3{
+    position: relative;
+
+}
+.box2-image3-text2{
+    position: absolute;
+    left: 6%;
+    top: 11%;
+    line-height: 50px;
+
+}
+.box2-image3-text2 p{
+    font-size: 1.6rem;
+    font-weight: bold;
+
+}
+.box2-image3-text2 a{
+    font-size: 1rem;
+    color: black;
+}
+
+.box2-image4{
+    position: relative;
+
+}
+.box2-image4-text{
+    position: absolute;
+    left: 6%;
+    top: 11%;
+}
+.box2-image4-text p{
+    font-size: 1.4rem;
+    width: 400px;
+    font-weight: bold;
+
+}
+.box2-image4-text a{
+    font-size: 1rem;
+    color: black;
+    line-height: 40px;
+}
+.apply{
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;  
+}
+
+
+.box3-image1{
+    position: relative;
+
+}
+.box3-image-text{
+    position: absolute;
+    left: 6%;
+    top: 11%;
+
+}
+.box3-image-text p{
+    width: 200px;
+    font-size: 1.8rem;
+    font-weight: bold;
+
+}
+.box3-image-text a{
+    color: black;
+    font-size: 1rem;
+    line-height: 50px;
+}
+
+.box3-image2{
+    position: relative;
+
+}
+.box3-image2-text{
+    position: absolute;
+    left: 6%;
+    top: 11%;
+   
+}
+.box3-image2-text p{
+    width: 200px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    
+}
+.box3-image2-text a{
+    color: black;
+    font-size: 1rem;
+    line-height: 50px;
+   
+
+}
+
+.box3-image3{
+    position: relative;
+
+}
+.box3-image3-text{
+    position: absolute;
+    left: 6%;
+    top: 11%;
+    font-size: 18px;
+}
+.box3-image3-text p{
+  
+    font-size: 1.7rem;
+    font-weight: bold;
+    
+}
+.box3-image3-text a{
+    color: black;
+    font-size: 1rem;
+    line-height: 50px;
+   
+
+}
+
+.react-multiple-carousel__arrow {
+    position: absolute;
+    outline: 0;
+    transition: all .5s;
+    border-radius: 35px;
+    z-index: 1000;
+    border: 0;
+    background: rgba(0, 0, 0, 0.5);
+    min-width: 43px;
+    min-height: 43px;
+    opacity: 1;
+    cursor: pointer;
+    z-index: 0;
+}
+
+.product-container{
+    width: 100%;
+}
+
+.items{
+    width: 200px;
+    object-fit: contain;
+    position: relative;
+  
+}
+.items img{
+    z-index: 10;
+}
+.product{
+  padding: 15px;  
+}
+
+.product-hadding{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.product-hadding a{
+    color: black;
+}
+.product-hadding a:hover{
+    text-decoration: none;
+}
+
+.hadding h2{
+ font-size: 2rem;
+ font-weight: bold;
+}
+.hadding p{
+    font-size: 1rem;
+}
+.prices .buttons button:hover{
+border: 2px solid black;
+
+}
+.price h2{
+   color: green;
+   padding-top: 10px;   
+   font-size: 20px;
+   font-weight: bold;
+}
+.discription a{
+    color: rgb(31, 28, 28); 
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.prices .buttons button{
+    border: none;
+    cursor: pointer;
+}
+.price button{
+    padding: 8px;
+    color: black;
+    border-radius: 20px;
+    width: 90px;
+    border: 1px solid black;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.prices .buttons button:hover{
+    /* border: 2px  solid black; */
+    border: none;
+}
+
+.second-conatainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.second-conatainer-part1{
+}
+.second-container-part2{
+padding-left: 0.75rem;
+padding-right: 0.75rem;
+box-sizing: border-box;
+}
+.home-image{
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: .5rem;
+    padding-bottom: 56.25%;
+    box-sizing: border-box;
+}
+.second-container img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+}
+.home-text{
+    position: absolute;
+    left: 6%;
+    top: 11%;
+    z-index: 1000;
+}
+
+.third-container{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    padding: 16px;
+    justify-content: space-between;
+
+}
+.third-container img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.third-container-box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.third-container-box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.third-container-box2-mid{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.third-container-box3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.third-container-box1-image1{
+    position: relative;
+}
+.third-container-box1-image1-text{
+    position: absolute;
+    left: 6%;
+    top: 8%;
+}
+.third-container-box1-image1-text p{
+font-size: 1rem;
+}
+.third-container-box1-image1-text h1{
+font-size: 2.5rem;
+color: rgb(10, 22, 73);
+}
+.third-container-box1-image1-text button{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1rem;
+   margin-top: 30px;
+   border: 1px solid black;
+}
+.third-container-box1-image1-text button:hover{
+    border: 2px solid black;
+}
+.box2-image1{
+    position: relative;
+}
+.third-container-box2-image1-text1{
+    position: absolute;
+    left: 6%;
+    top: 11%;
+    width: 200px;
+}
+.third-container-box2-image1-text1 p{
+font-size: 1rem;
+color: white;
+}
+.third-container-box2-image1-text1 h1{
+   font-size: 1.5rem;
+   color: white;
+}
+.third-container-box2-image1-text1 a{
+    color:white;
+   line-height: 50px;
+}
+
+.box2-mid-image1{
+    position: relative;
+}
+.box2-mid-image1-text{
+    position: absolute;
+    left: 6%;
+    top: 11%;
+}
+.box2-mid-image1-text p{
+    font-size: 1.4rem;
+    color: rgb(10, 22, 73) ;
+    font-weight: bold;
+}
+.box2-mid-image1-text a{
+    font-size: 1rem;
+    color:rgb(10, 22, 73);
+    line-height: 50px;
+}
+.box2-mid-image2{
+    position: relative;
+}
+.box2-mid-image2-text{
+    position: absolute;
+    left: 6%;
+    top: 11%;
+}
+.box2-mid-image2-text p{
+    font-size: 1.4rem;
+    color:white ;
+    font-weight: bold;
+}
+.box2-mid-image2-text a{
+    font-size: 1rem;
+    color:white;
+    line-height: 50px;
+}
+.third-container-box3-image1{
+    position: relative;
+}
+.third-container-box3-image1-text{
+    position: absolute;
+    left: 6%;
+    top: 7%;
+    width: 250px;
+}
+.third-container-box3-image1-text p{
+    font-size: 1.8rem;
+    color:rgb(10, 22, 73) ;
+    font-weight: bold;
+}
+.third-container-box3-image1-text a{
+    font-size: 0.9rem;
+    color:rgb(10, 22, 73);
+    line-height: 50px;
+}
+.hr{
+    margin: 25px 20px;
+    text-shadow: 2px 2px 4px;
+    text-align: center;
+    background-color: aliceblue;
+    color: aliceblue;
+}
+.heart{
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    z-index: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    height: 30px;
+    /* width: 30px; */
+}
+
+
+
+
+

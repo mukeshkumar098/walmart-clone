@@ -1,0 +1,88 @@
+.items-container{
+  width: 100%;
+    padding: 20px;
+    margin-top: 60px;
+}
+.items-hadding{
+    display: flex;
+    justify-content: space-between;
+}
+.items-hadding a{
+ color: black;
+}
+.items-container2{
+    display: flex;
+}
+.items-product{
+    width: 50%;
+}
+.haddings h2{
+color: black;
+font-size: 2rem;
+
+}
+.products{
+    padding: 30px;
+}
+.items-container2 img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.picture{
+    position: relative;
+}
+.picture-text {
+ position: absolute;
+ top: 10%;
+ left: 6%;
+
+}
+.picture-text h1{
+    font-size: 2.8rem;
+    color: rgb(11, 11, 51);
+}
+.picture-text button{
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px;
+    border: 1px solid black;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.picture-text button:hover{
+    border: 2px solid black;
+}
+.picture-container{
+    padding-left: 0.75rem;
+}
+.video-container{
+    margin-top: 40px;
+}
+
+.video-container video{
+    width: 100%;
+    object-fit: fill;
+    border-radius:20px 20px 0px 0px;
+    padding: 10px;
+
+}
+.videos-haddings h1{
+font-size: 2rem;
+font-weight: bold;
+
+
+}
+.videos-haddings{
+    padding: 20px;
+}
+.prices{
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
+}
+.video-container video:hover{
+    
+}

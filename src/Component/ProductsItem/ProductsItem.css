@@ -1,0 +1,291 @@
+.product-container{
+    width: 100%;
+   
+
+}
+.item-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 10px;
+    height: 100vh;
+  
+}
+/* .product-container.item-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+} */
+/* .product-container .item-container .product-carousel{
+    width: 600px;
+    height: 600px;
+}
+.product-container .item-container .product-carousel .item-image01{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.product-container .item-container .product-carousel .item-image01 img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+} */
+.item-box01 img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+  
+}
+.item-box01{
+width: 40%;
+
+}
+.item-box02{
+    width: 60%;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+ 
+    gap: 30px;
+    
+
+
+}
+.item-box02 .product-details-box{
+    width: 60%;
+    padding: 10px;
+}
+.info .button01 {
+    display: flex;
+    gap: 10px;
+}
+.info .button01 .button1{
+    background-color: #E6F1FC;
+    color: #004F9A;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.info .button01 .button2{
+    background-color: #FFF766;
+    color: black;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.description{
+    padding-top: 10px;
+}
+.description a{
+    font-size: 0.9rem;
+    color: gray;
+    line-height: 30px;
+
+}
+.description h2{
+    color: rgb(56, 53, 53);
+    font-size: 1.25rem;
+    line-height: 30px;
+    font-family: Bogle, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.item-box03{
+    width:36% ;
+ border-radius: 10px;
+ background-color: #F8F8F8;
+}
+ .items01{
+    width: 97%;
+    display: flex;
+    gap: 10px;
+    
+    justify-content: space-between;
+}
+.items01 img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+ 
+  
+}
+/* .items01 .items-images{
+    border: 2px solid black;
+} */
+.customhr{
+    margin: 20px 10px ;
+    opacity: 0.5;
+}
+.customhrs{
+    margin: 0px 10px ;
+    opacity: 0.5;
+}
+/* .color .color-image .image{
+    width: 50px;
+   
+    height: auto;
+
+}
+
+.color .color-image .image img{
+    object-fit: contain;
+    width: 100%;
+    border-radius: 50%;
+}*/
+.color .color-image{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+
+} 
+.color .color-image .image1{
+    background-image: url('/Public/Socks/socks color1.webp');
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.color .color-image .image2{
+    background-image: url('/Public/Socks/socks color2.webp');
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.color .color-image .image3{
+    background-image: url('/Public/Socks/socks color3.webp');
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.color .color-image .image4{
+    background-image: url('/Public/Socks/socks color4.webp');
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.item-box03 .cart-section .cart-section button{
+    background-color:  rgb(0,113,220);
+border: none;
+width: 17vw;
+border-radius: 20px;
+object-fit: contain;
+height: 32px;
+margin-top: 10px;
+color: white;
+cursor: pointer;
+
+
+}
+.item-box03 .cart-section .cart-section button:hover{
+    background-color: #154878;
+}
+.item-box03 .cart-section .cart-section h1{
+    color: green;
+    font-size: 1.9rem;
+    font-weight: bold;
+
+
+}
+.item-box03 .cart-section {
+    padding: 10px;
+}
+.item-box03 .cart-section .cart-section .save{
+    background-color: rgb(211, 236, 211);
+    color: green;
+    font-size: 0.9rem;
+    padding: 2px;
+
+}
+.item-box03 .cart-section .cart-section .save2{
+    color: green;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+.item-box03 .cart-section .cart-section .para{
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+.item-box03 .cart-section .cart-section .para2{
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+.color{
+    width: 200px;
+  
+}
+.color .price{
+    color: green;
+    text-align: center;
+}
+.color .price span{
+   line-height: 40px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.size .sizes{
+    display: flex;
+padding-top: 10px;
+    gap: 30px;
+}
+.product-size .size .sizes .size1 p{
+    border: 2px solid black;
+    padding: 5px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+.product-size .size .sizes .size2 p{
+    border: 2px solid rgb(217, 206, 206);
+    padding: 5px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+.product-size .pack{
+       padding-top: 10px;
+}
+.glance .glance-boxes{
+    display: flex;
+    gap: 10px;
+}
+.glance .glance-boxes .glance-box1{
+    background-color: #c1f1d0;
+    padding: 25px 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #E6F1FC;
+
+}
+.glance{
+    width: 400px;
+}
+.glance .glance-boxes .glance-box1 h3{
+    font-size: 0.8rem;
+    width: 100px;
+}
+.glance .glance-boxes .glance-box1 p{
+    font-size: 0.8rem;
+}
+

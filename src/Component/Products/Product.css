@@ -1,0 +1,256 @@
+.products-container1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+    height: auto;
+    gap: 10px;
+    padding: 10px;
+    
+}
+.products-container1 img{
+ width: 100%;
+ object-fit: contain;
+ border-radius: 10px;
+
+
+}
+
+.products-container-box1-image1{
+    position: relative;
+}
+.products-box1-text{
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    width: 20vw;
+}
+.products-box1-text p{
+   font-size: 1rem;
+}
+.products-box1-text h1{
+  font-size: 2.8rem;
+  color: rgb(14, 14, 75);
+
+}
+.products-box1-text button{
+     background-color: white;
+     padding: 12px;
+     border: 1px solid black;
+     border-radius: 20px;
+     font-weight: bold;
+     cursor: pointer;
+     z-index: 200;
+}
+
+.products-box1-text button:hover{
+    border: 2px solid black;
+}
+
+.products-box2-image1{
+    position: relative;
+}
+.products-box2-text1{
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    width: 12vw;
+}
+.products-box2-text1 p{
+        font-size: 1rem;
+        color: white;
+}
+.products-box2-text1 h1{
+   font-size: 1.8rem;
+   color: white;
+}
+.products-box2-text1 a{
+    color: white;
+    font-size: 0.9rem;
+    line-height: 50px;
+}
+.products-box2-mid-image1{
+    position: relative;
+}
+.box2-mid--text{
+    position: absolute;
+    top: 10%;
+    left: 6%;
+}
+.box2-mid--text p{
+    font-size: 1.4rem;
+    color: rgb(33, 11, 62);
+    font-weight: bold;
+
+}
+.box2-mid--text a{
+ color: black;
+ font-size: 0.9rem;
+ line-height: 50px;
+}
+.products-box2-mid-image2{
+    position: relative;
+}
+.products-box2-mid-text{
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    width: 14vw;
+}
+.products-box2-mid-text p{
+    font-size: 1.4rem;
+    color: rgb(33, 11, 62);
+    font-weight: bold;
+
+}
+.products-box2-mid-text a{
+ color: black;
+ font-size: 0.9rem;
+ line-height: 50px;
+}
+.products-container-box3-image{
+    position: relative;
+}
+.products-box3--text{
+    position: absolute;
+    top: 10%;
+    left: 6%;
+}
+.products-box3--text p{
+    font-size: 1rem;
+    color: rgb(33, 11, 62);
+    
+
+}
+.products-box3--text h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(33, 11, 62);
+    
+}
+.products-box3--text a{
+ color: black;
+ font-size: 0.9rem;
+ line-height: 50px;
+}
+.products-container-box2-mid{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+.products-container-box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-name a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.product-name{
+    text-align: center;
+    padding-right: 80px;
+}
+.all-iteme-container{
+    padding: 20px;
+}
+
+.bar-hadding{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+.bar-hadding a{
+    color: black;
+}
+.bar-hadding a:hover{
+    text-decoration: none;
+}
+.bar-hadding h1{
+ font-size: 2.4rem;
+ font-weight:bold;
+
+}
+.bar-hadding p{
+    font-size: 0.9rem;
+    
+}
+.items{
+padding: 20px;
+
+}
+.buttons button{
+    border: none;
+    font-weight: bold;
+    background-color: white;
+}
+.buttons {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    margin-top: 10px;
+    gap: 2px;
+     border-radius: 20px;
+     border: 1px solid black;
+     padding: 6px;
+     cursor: pointer;
+}
+
+.buttons:hover{
+    border: 2px solid black;
+}
+.entertainment{
+    padding: 30px;
+}
+.next-slider-conatainer{
+    width: 100%;
+    padding: 30px;
+}
+.next-slider-conatainer{
+    width: 100%;
+    margin-top: 20px;
+      padding: 20px;
+      margin-top: 60px;
+  }
+.items-container2 img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.custom-hr{
+    margin: 40px 20px;
+    opacity: 0.5;
+}
+.social h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.social p{
+    font-size: 1rem;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+.feature .social{
+    padding: 10px;
+}
+.feature .feature01 .item{
+    padding: 10px;
+    width: 100%;
+}
+.feature .feature01 .item img{
+    object-fit: contain;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}

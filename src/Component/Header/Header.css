@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-header{
+    width: 100%;
+    background-color:#0071DC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 13px;
+
+   
+   
+
+}
+header{
+  position: sticky;
+  top: 0;right: 0;left: 0;
+  z-index: 1;
+}
+
+.select-bar{
+    display: flex;
+    width: 310px;
+    gap: 10px;
+    align-items: center;
+    background-color: rgb(0,79,154);
+    padding: 6px 18px;
+    border-radius: 32px;
+    color: white;
+    font-family:  sans-serif;
+   line-height: 22px;
+   width: 320px;
+
+}
+.top-header .select-bar img {
+height: 30px;
+width: auto;
+}
+.barr h4{
+font-size: 0.9rem;
+width: 15vw;
+}
+
+
+.barr p{
+    font-size: 0.8rem;
+}
+.select-bar:hover{
+    background-color: rgb(22, 51, 78);
+}
+.search-bar{
+    display: flex;
+   
+    background-color: white;
+    padding: 6px 18px;
+    border-radius: 32px;
+    font-family:  sans-serif;
+    
+}
+.search-bar input{
+    border: none;
+  width: 30vw;
+}
+.search-bar input:focus-visible{
+    border:none ;
+    outline: none;
+}
+.search-bar input::placeholder{
+    color: #154878;
+    opacity:1;
+    font-size: 15px;
+}
+.my-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    color: white;
+    padding: 6px 18px;
+    font-family:  sans-serif;
+    cursor: pointer;
+   
+
+}
+.my-item:hover{
+    background-color: rgb(22, 51, 78);
+}
+.reorder{
+    padding-left: 5px;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    color: white;
+    padding: 6px 18px;
+    font-family:  sans-serif;
+    cursor: pointer;
+   
+
+}
+.account:hover{
+    background-color: rgb(22, 51, 78);
+}
+.login{
+    padding-left: 5px;
+    
+}
+.cart{
+    color: white;
+    padding: 6px 18px;
+    border-radius: 40px;
+
+}
+.cart:hover{
+    background-color: rgb(22, 51, 78);  
+}
+.addres-card{
+    width: 360px;
+    background-color: rgb(0,113,220) ;
+    position: fixed;
+    left: 60px;
+     border-radius: 0px 0px 10px 10px;
+    height: 370px;
+    top: 82px;
+    z-index: 100;
+  
+  
+}
+.bar{
+    width: 360px;  
+    display: flex;
+    justify-content: center;
+  
+   
+}
+.deliver{
+    width: 200px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10 px;
+    color: white
+   
+   
+}
+.deliver img{
+    width: 50px;
+}
+.location{
+    
+    width: 360px;
+    background-color: rgb(0,113,220) ;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.loc{
+    width:320px ;
+   
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 116px;
+    border-radius: 10px;
+}
+.locc{
+    display: flex;
+    align-items: center;
+}
+.locc .f7{
+    color: black;
+    font-size: .75rem;
+    font-weight: 700; 
+    padding-left: 5px;  
+}
+ .f8{
+    color:rgb(34, 31, 31);
+    font-weight: 400;
+    font-size: .75rem;
+    padding-left: 20px;
+    line-height: 1.25;
+}.loca {
+    padding-left: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* .loca button{
+   
+} */
+.button{
+    width:320px ;
+    display: flex;
+    justify-content: center;
+}
+.button button{
+   
+    background-color:  rgb(0,113,220);
+    border: none;
+    border-radius: 20px;
+    width:300px ;
+    height: 32px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+  
+   
+}
+.button button:hover{
+ background-color: #154878;
+}
+.sacra{
+    width: 360px;
+    background-color: rgb(0,113,220) ;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+   
+}
+.sac{
+    width:320px ;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    border-radius: 10px;
+}
+.Sacramento{
+    color:rgb(34, 31, 31);
+    font-weight: 400;
+    font-size: .75rem;
+    padding-left: 5px;
+    font-weight: 700;
+    width: 300px;
+    
+}
+.icon{
+    display: flex;
+    align-items: center;
+   
+   
+}
+.f2{
+    width: 250px;
+    
+}
+.f9{
+    color:rgb(34, 31, 31);
+    font-weight: 400;
+    font-size: .85rem;
+    padding-left: 20px;
+    line-height: 1.25;
+}
+.nav2{
+    width: 100%;
+    height: 50px;
+    background-color:#F2F8FD;
+    display: flex;
+    align-items: center; 
+  
+    z-index: 10;
+}
+.services{
+    display: flex; 
+    align-items: center;
+    width: 290px;
+    padding: 20px;
+   
+   
+}
+.department{
+    
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    
+}
+.department:hover{
+     border: 1.5px solid  #154878;
+   
+}.service{
+    padding: 5px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    
+    
+}
+.service:hover{
+     border: 2px solid #154878;
+}
+.head ul{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.head a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.head a:hover{
+    text-decoration: underline;
+}
+.cart-transperancy{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 50;
+    background-color: rgba(0,0, 0, 0.4);
+}
+.reoderr{
+    background-color: white;
+    width: 130px;
+    box-shadow: 2px 2px 4px;
+    right: 17vw;
+    position: fixed;
+    top: 82px;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+   
+
+}
+.itms{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+   padding-top: 15px;
+
+}
+.itms a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+   
+}
+.itms a:hover{
+    text-decoration: underline;
+}
+.account-bar{
+    background-color: white;
+    width: 260px;
+    box-shadow: 2px 2px 4px;
+    right: 4vw;
+    position: fixed;
+    top: 82px;
+    z-index: 100;
+    border-radius: 0px 0px 10px 10px;
+}
+.account-button{
+    width: 260px;   
+    display: flex;
+    justify-content: center;
+    padding:20px;
+}
+.account-button button{
+    background-color: rgb(0,113,220);
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+
+}
+.account-button button:hover{
+    background-color: #154878;
+}
+.purches{
+    padding: 20px;
+  
+}
+.purches ul{
+    list-style: none;
+    line-height: 30px;
+}
+.purches a{
+    text-decoration: none;
+    color: rgb(56, 51, 51);
+    font-size: 1rem;
+    padding-left: 8px;
+}
+.purches a:hover{
+    text-decoration: underline;
+}
